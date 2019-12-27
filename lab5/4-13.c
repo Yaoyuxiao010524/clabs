@@ -41,6 +41,7 @@ int main(void)
 	while(1)
 	{
 		get_line(s, MAX_LINE);
+		//printf("%s\n", s);
 		printf("%s\n",reverse(s));
 	}
 

@@ -30,7 +30,35 @@ int main (){
 			{  
 			case NUMBER:  
 				push( atof (s) );   
-				break;  	  
+				break;  
+			  
+/*			case '+':  
+				push ( pop () + pop ());  
+				break;  
+  
+			case '*':  
+				push (pop() * pop() );  
+				break;  
+  
+			case '-':  
+				op2 = pop();  
+				push ( pop() - op2);  
+				break ;  
+			  
+			case '/':  
+				op2 = pop();  
+				if( op2 != 0)  
+					push (pop() / op2 );  
+				else printf("error : zero divisor\n");  
+				break;  
+			  
+			case '%':  
+				op2 = pop();  
+				if( op2 != 0.0)
+				       push (fmod(pop(),op2)); 
+				else printf("error : zero divisor\n");
+				break;  
+	*/		  
 			case '\n':  
 			push ( pop () + pop ()); 
 				printf("sum = %2.8g\n",pop());  
